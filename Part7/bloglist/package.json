@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "dev": "concurrently \"cd frontend && npm run dev\" \"cd backend && npm run dev\"",
+    "e2e:test": "concurrently \"cd frontend && npm run dev\" \"cd backend && npm run start:test\""
+  },
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
