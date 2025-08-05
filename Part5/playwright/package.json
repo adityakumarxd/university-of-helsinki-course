@@ -1,0 +1,16 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "e2e tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:report": "playwright show-report"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.18"
+  }
+}
